@@ -89,7 +89,7 @@ PROD_FEAT_CSV  = "oliveyoung_lotion_data_with_features.csv"
 REVIEWS_CSV    = "reviews_with_absa_results.csv"
 TOP5_KW_CSV    = "keywords_top5.csv"
 
-products_feat  = pd.read_csv(PROD_FEAT_CSV,  encoding="cp949")
+products_feat  = pd.read_csv(PROD_FEAT_CSV,  encoding="utf-8-sig")
 reviews_df     = pd.read_csv(REVIEWS_CSV,    encoding="utf-8-sig")
 keywords_long  = pd.read_csv(TOP5_KW_CSV,    encoding="utf-8-sig")
 
